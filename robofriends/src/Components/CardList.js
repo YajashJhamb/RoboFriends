@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Card from "./Card";
-class Robots extends Component {
+
+class CardList extends Component {
   render() {
     const { robots } = this.props;
     const cardComponent = robots.map((user, i) => {
@@ -17,4 +18,4 @@ class Robots extends Component {
   }
 }
 
-export default Robots;
+export default CardList;
